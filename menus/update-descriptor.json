@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Update descriptor",
+        "command": "update-descriptor:updateDescriptor"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "update-descriptor",
+          "submenu": [
+            {
+              "label": "Update descriptor",
+              "command": "update-descriptor:updateDescriptor"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

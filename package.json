@@ -1,0 +1,23 @@
+{
+  "name": "update-descriptor",
+  "main": "./lib/update-descriptor",
+  "version": "0.0.1",
+  "description": "Update \"ModifiedOnUtc\" in descriptor.json after save .js file",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "update-descriptor:updateDescriptor"
+  },
+  "activationHooks": [
+    "language-javascript:grammar-used"
+  ],
+  "repository": "https://github.com/creatioplugins/update-descriptor.git",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "path": "^0.12.7",
+    "util": "^0.12.3"
+  }
+}
